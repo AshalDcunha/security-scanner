@@ -1,4 +1,4 @@
-# 🔍 Mini Security Scanner with AI Analysis
+# Mini Security Scanner with AI Analysis
 
 A security reconnaissance tool that crawls a target website, runs basic security checks, and uses an LLM to analyze and summarize findings.
 
