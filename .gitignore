@@ -29,7 +29,3 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Output files (optional - comment out if you want to include them)
-# endpoints.json
-# security_findings.json
-# ai_report.md
