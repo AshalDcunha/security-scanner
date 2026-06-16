@@ -4,7 +4,7 @@ A security reconnaissance tool that crawls a target website, runs basic security
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 security-scanner/
@@ -23,7 +23,7 @@ security-scanner/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Prerequisites
 
@@ -41,7 +41,7 @@ docker run -p 3000:3000 bkimminich/juice-shop
 Wait for the message: `Server listening on port 3000`  
 Then verify it works by visiting: http://localhost:3000
 
-> ⚠️ **Keep this terminal open** while running the scanner. The app stops when you close it.
+>  **Keep this terminal open** while running the scanner. The app stops when you close it.
 
 ### 3. Set Up Python Environment
 
@@ -71,7 +71,7 @@ pip install requests beautifulsoup4 python-dotenv
 OPENROUTER_API_KEY=sk-or-v1-your-actual-key-here
 ```
 
-> ⚠️ Never share this file or commit it to GitHub.
+>  Never share this file or commit it to GitHub.
 
 ---
 
@@ -117,7 +117,7 @@ python ai_analysis.py
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 ### endpoints.json (Part 1 output)
 ```json
@@ -177,7 +177,7 @@ The most serious issue found is the exposed admin configuration endpoint...
 
 ---
 
-## 🧠 Assumptions Made
+##  Assumptions Made
 
 1. **Juice Shop runs on `http://localhost:3000`** — This is the default Docker setup.
 
@@ -193,7 +193,7 @@ The most serious issue found is the exposed admin configuration endpoint...
 
 ---
 
-## 🔧 What I Would Improve With More Time
+##  What I Would Improve With More Time
 
 _(See writeup.md for the full version)_
 
@@ -206,6 +206,6 @@ _(See writeup.md for the full version)_
 
 ---
 
-## 🛡️ Disclaimer
+##  Disclaimer
 
 This tool is for **educational use only** against systems you have permission to test. Only run it against OWASP Juice Shop or other intentionally vulnerable applications you control.
